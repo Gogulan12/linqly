@@ -1,0 +1,21 @@
+.mainHeroContainer {
+  background-color: #e6d1cf;
+}
+
+.mainHero {
+  height: 700px;
+  display: flex;
+  max-width: 1200px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-color: #e6d1cf;
+  color: #f01f05;
+  margin: 0 auto;
+}
+
+/* .mainHero h1 {
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+} */

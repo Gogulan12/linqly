@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+nav {
+  display: flex;
+  margin: 20px 20px 20px 60px;
+  margin: 20px auto;
+  gap: 10px;
+  align-items: center;
+  max-width: 1200px;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+nav h1 {
+  margin-right: auto;
+}
+
+nav a {
+  color: #333;
+  padding: 4px 10px;
+  text-decoration: none;
+  font-size: 1.2rem;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+}
+
+nav a.active {
+  color: #ff442f;
+  /* background: #333; */
+  text-decoration: none;
+}
+nav img {
+  width: 100px;
+}
+
+nav div {
+  padding-top: 20px;
 }

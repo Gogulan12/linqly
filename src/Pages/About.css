@@ -1,0 +1,16 @@
+.informationContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  text-align: left;
+  font-family: "Inter", sans-serif;
+  padding: 0 30px 90px;
+  font-size: 1.2rem;
+}
+
+/* .aboutUsTitle {
+  font-size: 1.2rem;
+} */
+
+.aboutNotes {
+  margin-top: 50px;
+}

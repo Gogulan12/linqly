@@ -40,17 +40,29 @@ export default function Contact() {
           <h3>Social Media</h3>
           <ul>
             <li>
-              <a href="https://www.linkedin.com/company/linqly" target="_blank">
+              <a
+                href="https://www.linkedin.com/company/linqly"
+                target="_blank"
+                rel="noreferrer"
+              >
                 LinkedIn
               </a>
             </li>
             <li>
-              <a href="https://twitter.com/linqlytech" target="_blank">
+              <a
+                href="https://twitter.com/linqlytech"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Twitter
               </a>
             </li>
             <li>
-              <a href="https://www.facebook.com/linqly" target="_blank">
+              <a
+                href="https://www.facebook.com/linqly"
+                target="_blank"
+                rel="noreferrer"
+              >
                 Facebook
               </a>
             </li>

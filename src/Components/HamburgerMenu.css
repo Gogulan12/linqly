@@ -36,6 +36,12 @@ nav {
   width: 100px;
 }
 
+.navigationLinks a.active {
+  color: #ff442f;
+  /* background: #333; */
+  text-decoration: none;
+}
+
 .hamburger-button {
   background: none;
   border: none;
@@ -66,7 +72,8 @@ nav {
 
   /* Navigation links container */
   .navigationLinks {
-    position: fixed;
+    /* position: fixed; */
+    position: absolute;
     top: -100%; /* Initially off-screen */
     left: 0;
     /* width: 100%;

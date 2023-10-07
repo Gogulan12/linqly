@@ -5,13 +5,18 @@
 .mainHero {
   height: 700px;
   display: flex;
+  flex-direction: column;
   max-width: 1200px;
-  text-align: center;
+  text-align: left;
   align-items: center;
-  justify-content: center;
+  justify-content: left;
   background-color: #e6d1cf;
   color: #f01f05;
   margin: 0 auto;
+  font-size: 2rem;
+  align-items: flex-start;
+  justify-content: center;
+  font-family: "Inter", sans-serif;
 }
 
 /* .mainHero h1 {
@@ -19,3 +24,91 @@
   align-items: center;
   justify-content: center;
 } */
+
+.mainHero h1 {
+  margin: 0;
+}
+
+.mainHero h4 {
+  font-size: 1.3rem;
+  padding: 20px 0;
+  margin: 0;
+}
+
+/* Style the form container */
+.form-container {
+  position: relative;
+  width: 300px; /* Adjust the width as needed */
+  /* margin: 0 auto; Center the form horizontally */
+}
+
+/* Style the email input field */
+#email {
+  width: 100%;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 1px solid #e4e6f9;
+  border-radius: 20px;
+  height: 1.5rem;
+}
+#email::placeholder {
+  color: #a39696; /* Adjust the color to make it lighter */
+  font-family: "Inter", sans-serif;
+}
+
+/* Style the submit button */
+#submit {
+  position: absolute;
+  top: 10px;
+  right: -20px;
+  background-color: #f01f05;
+  color: #fff;
+  padding: 9px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+
+@media (max-width: 1200px) {
+  .mainHero {
+    padding-left: 20px;
+  }
+}
+
+.mainContent {
+  padding: 100px 0;
+}
+
+.mainContent h2 {
+  padding-bottom: 50px;
+  font-size: 2.3rem;
+}
+
+.listofBenefits {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.listofBenefits ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.listofBenefits ul li {
+  list-style: none;
+  width: 250px;
+  padding-bottom: 20px;
+}
+
+.icon {
+  font-size: 2em;
+}
+
+@media (max-width: 1080px) {
+  .listofBenefits ul li {
+    width: 300px;
+  }
+}

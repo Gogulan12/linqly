@@ -13,6 +13,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 // import { NavLink } from "react-router-dom";
 import "./Components/HamburgerMenu.css";
+import Termsofservice from "./Pages/Termsofservice";
+import PrivacyPolicy from "./Pages/PrivacyPolicy";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -74,7 +76,21 @@ function App() {
           <Route path="/contact">
             <Contact />
           </Route>
+          <Route path="/termsofservice">
+            <Termsofservice />
+          </Route>
+          <Route path="/PrivacyPolicy">
+            <PrivacyPolicy />
+          </Route>
         </Switch>
+
+        <div className="footerContainer">
+          <footer>
+            <p>© 2023 Linqly</p>
+            <NavLink to="/termsofservice">Terms of Service</NavLink>
+            <NavLink to="/PrivacyPolicy">Privacy Policy</NavLink>
+          </footer>
+        </div>
       </BrowserRouter>
     </div>
   );

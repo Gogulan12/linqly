@@ -75,3 +75,46 @@ nav img {
 /* nav div {
   padding-top: 20px;
 } */
+
+/* .footerContainer {
+  position: fixed; 
+  bottom: 0;
+  width: 100%;
+  background-color: #f8f8f8; 
+  padding: 10px; 
+  text-align: center; 
+} */
+
+/* Reset default margin and padding */
+/* body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+} */
+
+.footerContainer {
+  background-color: black;
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+footer a,
+footer p {
+  text-decoration: none;
+  color: #f01f05; /* Set your desired link color */
+  margin: 0 10px; /* Add margin to separate links */
+  font-weight: bold;
+}
+
+footer a:hover {
+  color: #ff442f;
+}

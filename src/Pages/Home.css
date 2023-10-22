@@ -1,5 +1,5 @@
 .mainHeroContainer {
-  background-color: #e6d1cf;
+  background-color: black;
 }
 
 .mainHero {
@@ -10,7 +10,7 @@
   text-align: left;
   align-items: center;
   justify-content: left;
-  background-color: #e6d1cf;
+  background-color: black;
   color: #f01f05;
   margin: 0 auto;
   font-size: 2rem;

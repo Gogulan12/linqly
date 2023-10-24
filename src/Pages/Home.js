@@ -14,9 +14,9 @@ export default function Home() {
       <div className="mainHeroContainer">
         <div className="mainHero">
           <h1>
-            Automate everyday <br />
-            legal workflows <br />
-            inside Clio.
+            Elevate your <br />
+            daily legal <br />
+            experience
           </h1>
           <h4>Transforming Legal Documents with OCR Expertise</h4>
           <div className="form-container">
@@ -35,10 +35,7 @@ export default function Home() {
         </div>
       </div>
       <div className="mainContent">
-        <h2>
-          Focus on your clients. <br />
-          Automate the rest.
-        </h2>
+        <h2>Prioritize client needs, with OCR that exceeds.</h2>
         <div className="listofBenefits">
           <ul>
             <li>

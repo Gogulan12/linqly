@@ -1,0 +1,32 @@
+.termscontainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 200px;
+}
+
+.termsContentContainer {
+  padding: 0 20px;
+}
+
+.termcontent {
+  text-align: left;
+  /* padding-bottom: 100px; */
+}
+
+.termcontent h3 {
+  font-size: 1.6rem;
+}
+
+.termcontent ul li {
+  list-style: none;
+}
+
+.termsofserviceTitle {
+  font-size: 1.8rem;
+}
+
+p {
+  line-height: 1.5;
+  margin-bottom: 1rem;
+  color: #121316;
+}

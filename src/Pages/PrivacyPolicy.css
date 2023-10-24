@@ -1,0 +1,18 @@
+.privacyContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.privacyTitle {
+  font-size: 1.8rem;
+}
+
+.privacyContainerContent {
+  text-align: left;
+  padding: 0 20px;
+  padding-bottom: 200px;
+}
+
+.privacycontent h3 {
+  font-size: 1.6rem;
+}

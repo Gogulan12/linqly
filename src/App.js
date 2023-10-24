@@ -15,12 +15,18 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 import "./Components/HamburgerMenu.css";
 import Termsofservice from "./Pages/Termsofservice";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
+import { scrollToTop } from "./Components/ScrollToTop";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   const toggleMenu = () => {
     setMenuOpen(!menuOpen);
+  };
+
+  const handleClick = (event) => {
+    // event.preventDefault();
+    scrollToTop(); // Call the scrollToTop function
   };
 
   return (
@@ -64,6 +70,7 @@ function App() {
         </div>
 
         <Switch>
+          {/* <ScrollToTop /> */}
           <Route exact path="/">
             <Home />
           </Route>
@@ -87,8 +94,12 @@ function App() {
         <div className="footerContainer">
           <footer>
             <p>© 2023 Linqly</p>
-            <NavLink to="/termsofservice">Terms of Service</NavLink>
-            <NavLink to="/PrivacyPolicy">Privacy Policy</NavLink>
+            <NavLink to="/termsofservice" onClick={handleClick}>
+              Terms of Service
+            </NavLink>
+            <NavLink to="/PrivacyPolicy" onClick={handleClick}>
+              Privacy Policy
+            </NavLink>
           </footer>
         </div>
       </BrowserRouter>

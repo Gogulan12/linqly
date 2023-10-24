@@ -5,7 +5,10 @@ import "./PrivacyPolicy.css";
 export default function PrivacyPolicy() {
   return (
     <div className="privacyContainer">
-      <h2 className="privacyTitle">Privacy Policy</h2>
+      <h2 className="privacyTitle">
+        Linqly <br />
+        Privacy Policy
+      </h2>
 
       <p>Last Updated: Oct 23, 2023</p>
 

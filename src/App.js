@@ -16,6 +16,7 @@ import "./Components/HamburgerMenu.css";
 import Termsofservice from "./Pages/Termsofservice";
 import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import { scrollToTop } from "./Components/ScrollToTop";
+import Pricing from "./Pages/Pricing";
 
 function App() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -58,7 +59,10 @@ function App() {
               Home
             </NavLink>
             <NavLink to="/clio" onClick={toggleMenu}>
-              Clio OCR
+              Services
+            </NavLink>
+            <NavLink to="/pricing" onClick={toggleMenu}>
+              Pricing
             </NavLink>
             <NavLink to="/about" onClick={toggleMenu}>
               About
@@ -82,6 +86,9 @@ function App() {
           </Route>
           <Route path="/contact">
             <Contact />
+          </Route>
+          <Route path="/pricing">
+            <Pricing />
           </Route>
           <Route path="/termsofservice">
             <Termsofservice />

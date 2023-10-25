@@ -1,26 +1,48 @@
 /* Style for the Contact Us section */
 #contact {
   /* background-color: #f9f9f9; */
-  padding: 20px;
-  margin: 20px 0;
+
   border-radius: 5px;
   /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   text-align: left;
+
+  /* padding: 30px; */
+}
+
+.outerContactHeader {
+  /* background-color: #ff000060; */
+}
+
+.contactHeaderContainer {
+  display: flex;
   margin: 0 auto;
   max-width: 1200px;
-  padding: 30px;
+  padding: 20px;
+  padding-bottom: 50px;
+}
+.contactText {
+  width: 50%;
 }
 
 .officeImageLocation {
-  width: 100%;
+  width: 50%;
   height: 450px;
   overflow: hidden;
-  margin-bottom: 100px;
+  /* margin-bottom: 100px; */
   border-radius: 8px;
   object-fit: cover;
   display: flex;
   /* justify-content: flex-end; */
   /* align-items: flex-end; */
+}
+
+.contactText {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  /* padding-right: 30px; */
+  margin-right: 30px;
 }
 
 .officeImageLocation img {
@@ -84,4 +106,24 @@
 .contact-info ul li a:hover {
   text-decoration: underline;
   color: #0056b3;
+}
+
+.ContactContentInfo {
+  margin: 0 auto;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+@media (max-width: 1000px) {
+  .contactHeaderContainer {
+    flex-direction: column-reverse;
+  }
+
+  .officeImageLocation {
+    width: 100%;
+  }
+
+  .contactText {
+    width: 100%;
+  }
 }

@@ -1,11 +1,15 @@
 import React from "react";
 
 import "./Contact.css";
+import toronto from "../Assets/toronto.jpg";
 
 export default function Contact() {
   return (
     <div>
       <section id="contact">
+        <div className="officeImageLocation">
+          <img src={toronto} alt="" />
+        </div>
         <h2>Contact Us</h2>
         <p>
           Have questions or need assistance? Don't hesitate to reach out to us.

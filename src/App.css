@@ -47,7 +47,7 @@ nav {
   align-items: center;
   max-width: 1200px;
   justify-content: space-between;
-  padding: 0px 30px;
+  /* padding: 0px 30px; */
   padding-bottom: 0;
 }
 nav h1 {
@@ -117,4 +117,10 @@ footer p {
 
 footer a:hover {
   color: #ff442f;
+}
+
+@media (max-width: 1200px) {
+  nav {
+    padding: 0px 10px;
+  }
 }

@@ -7,30 +7,38 @@ import {
   faShield,
   faArrowUpRightDots,
 } from "@fortawesome/free-solid-svg-icons";
+import clio from "../Assets/Clio.png";
 
 export default function Home() {
   return (
     <div>
-      <div className="mainHeroContainer">
-        <div className="mainHero">
-          <h1>
-            Elevate your <br />
-            daily legal <br />
-            experience
-          </h1>
-          <h4>Transforming Legal Documents with OCR Expertise</h4>
-          <div className="form-container">
-            <form action="" method="">
-              <label for="email"></label>
-              <input
-                type="email"
-                id="email"
-                name="email"
-                placeholder="Enter your email"
-                required
-              />
-              <input type="submit" value="Submit" id="submit" />
-            </form>
+      <div className="mainHeroContainerBackground">
+        <div className="mainHeroContainer">
+          <div className="mainHero">
+            <h1>
+              Elevate your <br />
+              daily legal <br />
+              experience
+            </h1>
+            <h4>Transforming Legal Documents with OCR Expertise</h4>
+            <div className="form-container">
+              <form action="" method="">
+                <label for="email"></label>
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  placeholder="Enter your email"
+                  required
+                />
+                <input type="submit" value="Submit" id="submit" />
+              </form>
+            </div>
+          </div>
+          <div className="rightSideHero">
+            <div className="imageContainerMain">
+              <img src={clio} alt="" />
+            </div>
           </div>
         </div>
       </div>

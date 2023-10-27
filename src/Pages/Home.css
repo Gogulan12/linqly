@@ -1,22 +1,50 @@
-.mainHeroContainer {
+.mainHeroContainerBackground {
   background-color: black;
 }
 
+.mainHeroContainer {
+  /* background-color: black; */
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding: 200px 0;
+}
+
 .mainHero {
-  height: 700px;
+  /* height: 700px; */
   display: flex;
   flex-direction: column;
-  max-width: 1200px;
+  /* max-width: 1200px; */
   text-align: left;
   align-items: center;
   justify-content: left;
   background-color: black;
   color: #f01f05;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   font-size: 2rem;
   align-items: flex-start;
   justify-content: center;
   font-family: "Inter", sans-serif;
+  /* width: 50%; */
+  display: flex;
+}
+
+.rightSideHero {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imageContainerMain {
+  /* width: 50%; */
+  /* display: flex; */
+  /* justify-content: center;
+  align-items: center; */
+}
+
+.imageContainerMain img {
+  width: 100%;
 }
 
 /* .mainHero h1 {
@@ -107,8 +135,44 @@
   font-size: 2em;
 }
 
+@media (max-width: 1200px) {
+  .mainHeroContainer {
+    flex-direction: column;
+  }
+
+  .mainHero {
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 20px;
+    align-items: center;
+  }
+  .mainHero br {
+    display: none;
+  }
+  .rightSideHero {
+    padding-top: 100px;
+    width: 100%;
+  }
+  .imageContainerMain {
+    width: 80%;
+  }
+}
+
 @media (max-width: 1080px) {
   .listofBenefits ul li {
     width: 300px;
+  }
+}
+
+@media (max-width: 630px) {
+  .mainHero h1 {
+    font-size: 2.5rem;
+  }
+  .mainHero h4 {
+    font-size: 1rem;
+  }
+  .form-container {
+    width: 80%;
+    right: 20px;
   }
 }

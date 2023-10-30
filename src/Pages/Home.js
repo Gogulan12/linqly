@@ -20,7 +20,7 @@ export default function Home() {
               daily legal <br />
               experience
             </h1>
-            <h4>Transforming Legal Documents with OCR Expertise</h4>
+            <h4>Transforming Legal Documents with technology Expertise</h4>
             <div className="form-container">
               <form action="" method="">
                 <label for="email"></label>

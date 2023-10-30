@@ -20,7 +20,7 @@ export default function Home() {
               daily legal <br />
               experience
             </h1>
-            <h4>Transforming Legal Documents with technology Expertise</h4>
+            <h4>Transforming Legal Documents with OCR Expertise</h4>
             <div className="form-container">
               <form action="" method="">
                 <label for="email"></label>
@@ -43,7 +43,7 @@ export default function Home() {
         </div>
       </div>
       <div className="mainContent">
-        <h2>Prioritize client needs, with OCR that exceeds.</h2>
+        <h2>Prioritize client needs, with technology that exceeds.</h2>
         <div className="listofBenefits">
           <ul>
             <li>

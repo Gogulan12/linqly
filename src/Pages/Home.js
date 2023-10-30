@@ -43,7 +43,7 @@ export default function Home() {
         </div>
       </div>
       <div className="mainContent">
-        <h2>Prioritize client needs with technology that exceeds.</h2>
+        <h2>Prioritize client needs with technology that exceeds</h2>
         <div className="listofBenefits">
           <ul>
             <li>

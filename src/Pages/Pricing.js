@@ -12,7 +12,7 @@ export default function Pricing() {
           requirements.
         </h2>
         <h3>
-          Unlock Cost-effective Solutions for Streamlined Document Management
+          Unlock cost-effective solutions for Streamlined Document Management
         </h3>
       </div>
       <div className="pricing-grid">

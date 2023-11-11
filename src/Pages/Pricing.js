@@ -91,7 +91,7 @@ export default function Pricing() {
         </div>
         <div className="pricing-option">
           <h2>Annual Advantage</h2>
-          <p>Pay once a year and save!</p>
+          <p>Pay once a year and save</p>
           <div className="pricingContainerNumber">
             <h3>$4.99</h3>
             <div className="currency">

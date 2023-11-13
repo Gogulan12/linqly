@@ -34,6 +34,11 @@ export default function Home() {
                 <input type="submit" value="Submit" id="submit" />
               </form>
             </div>
+            <div className="submit-button-container">
+              <button className="submit">
+                <p>Get Started</p>
+              </button>
+            </div>
           </div>
           <div className="rightSideHero">
             <div className="imageContainerMain">

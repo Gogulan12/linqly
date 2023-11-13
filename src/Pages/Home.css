@@ -98,6 +98,24 @@
   font-family: "Inter", sans-serif;
 }
 
+.submit-button-container {
+  margin-top: 20px;
+}
+
+.submit {
+  background-color: #f01f05;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  font-family: "Inter", sans-serif;
+}
+.submit p {
+  color: #fff;
+  /* padding: 9px 20px; */
+  padding: 1px 20px;
+  font-size: 1rem;
+  border: none;
+}
 @media (max-width: 1200px) {
   .mainHero {
     padding-left: 20px;

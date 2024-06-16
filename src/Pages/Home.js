@@ -36,7 +36,7 @@ export default function Home() {
             </div>
             <div className="submit-button-container">
               <button className="submit">
-                <p>Get Started</p>
+                <p>Get Started Now</p>
               </button>
             </div>
           </div>

@@ -100,7 +100,7 @@ function App() {
 
         <div className="footerContainer">
           <footer>
-            <p>© 2023 Linqly</p>
+            <p>© 2024 Linqly</p>
             <NavLink to="/termsofservice" onClick={handleClick}>
               Terms of Service
             </NavLink>
